@@ -18,8 +18,8 @@
 
 
 
-var m = 25; // Minute
-var s = 0; // Seconde
+var m = 0; // Minute
+var s = 10; // Seconde
  
 var temps; // Contiendra l'exécution de notre code 
 var bo =  true; // Permettra de contrôler l'exécution du code
@@ -89,7 +89,7 @@ $("#pause", temps).click(function()
 $("#stop").click(function()
 {
      
-    s = 0;
+    s = 10;
     m = 0;
      
     $("#s").html("00");
