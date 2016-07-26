@@ -19,19 +19,19 @@
 
 
 var m = 0; // Minute
-var s = 10; // Seconde
+var s = 8; // Seconde
  
 var temps; // Contiendra l'exécution de notre code 
 var bo =  true; // Permettra de contrôler l'exécution du code
 
-function affichage(nb)
+function affichage(n00b)
 {
-    if(nb < 10) // si le chiffre indiqué est inférieurs à dix ...
+    if(n00b < 10) // si le chiffre indiqué est inférieurs à dix ...
     {
-        nb = "0" + nb; // .. on ajoute un zéro devant avant affichage
+        n00b = "0" + n00b; // .. on ajoute un zéro devant avant affichage
     }
      
-    return nb;
+    return n00b;
 }
 
 $("#play").click(function()
@@ -46,27 +46,30 @@ $("#play").click(function()
                 m--;
                 s = 59;
             }
-             
-           //{ //si chrono = 0 créer une alerte sonore
-           	//$(this).effect("pulsate", { times:3 }, 2000);     
-            //$('#ex1').add('h2'); //migrer info "doing" dans "done"
-
-           //ensuite augmenter temps jusu'à 5 minutes
+                      
+           //ensuite repartir de 5 minutes
            	if(m == 0 && s == 0){
-           	s ++;
-				if (s > 59) {
-				m = m+1;
-				}
-			//m <= 5; 
-            //	}
-        }
-             
+           	    alert('');
+                /*m=5;*/
+                s=5;
+            }
+// repart en boucle sur temps pause ...
+            /*  
+
+                if (s = 0){
+                alert ('stop pause');
+                m=0;
+                s = 0;
+            }*/
+        
+
+
+
+
             $("#s").html(affichage(s));
-            $("#m").html(affichage(m));
-           
-             
-        }, 1000); 
-         
+            $("#m").html(affichage(m));           
+           }, 1000); 
+        
                 // On affecte false à bo pour empécher un second Intervalle de se lancer
         bo = false; 
     }
@@ -89,7 +92,7 @@ $("#pause", temps).click(function()
 $("#stop").click(function()
 {
      
-    s = 10;
+    s = 8;
     m = 0;
      
     $("#s").html("00");
