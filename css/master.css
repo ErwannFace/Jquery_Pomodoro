@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Chrono'; /* nom que vous utiliserez pour utiliser la police */
-    src: url('/home/pcapprenant16/Documents/Jquery_Pomodoro/Open 24 Display St.ttf');
+    src: url('/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/Open 24 Display St.ttf');
 }
 
 
@@ -10,7 +10,7 @@
     margin: 0 auto;
     padding-top: 50px;
     
-	background-image: url(/home/pcapprenant16/Documents/Jquery_Pomodoro/pomodoro.jpg);
+	background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
 	background-repeat : no-repeat;
 	background-size : cover;
 	background-position : center;
@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     text-shadow: 5px 5px 2px black;
     text-transform: uppercase;
-background-image: url(/home/pcapprenant16/Documents/Jquery_Pomodoro/pomodoro.jpg);
+background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
 background-repeat : no-repeat;
 	background-size : cover;
 	background-position : fixed;
@@ -50,7 +50,7 @@ h2{
 body {
 
 	height: 350px;
-	background-image: url(/home/pcapprenant16/Documents/Jquery_Pomodoro/pomodoro.jpg);
+	background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
 	background-size : cover;
 	background-repeat : no-repeat;
 	background-position : fixed;

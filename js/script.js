@@ -49,10 +49,11 @@ $("#play").click(function()
                       
            //ensuite repartir de 5 minutes
            	if(m == 0 && s == 0){
-           	    alert('');
+           	    alert('?');
                 /*m=5;*/
                 s=5;
             }
+            
 // repart en boucle sur temps pause ...
             /*  
 
