@@ -1,15 +1,58 @@
+@font-face {
+    font-family: 'Chrono'; /* nom que vous utiliserez pour utiliser la police */
+    src: url('/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/Open 24 Display St.ttf');
+}
+
+
 .container {
     width: 400px;
+
     margin: 0 auto;
+    padding-top: 50px;
+    
+	background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position : center;
+border-bottom-right-radius: 5%;
+border-bottom-left-radius: 5%;
+
 }
 h1 {
-    color: red;
+    color: cyan;
+    text-align: center;
+    text-shadow: 5px 5px 2px black;
     text-transform: uppercase;
+background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
+background-repeat : no-repeat;
+	background-size : cover;
+	background-position : fixed;
+opacity: 0.9;
+border-bottom-right-radius: 25%;
+border-bottom-left-radius: 25%;
 }
+
+h2{
+	color : cyan;
+}
+
 #controls {
     text-align: center;
 }
 .time {
-    font-weight: bold;
-    font-size: 3em;
+    color : cyan;
+	font-family: 'Chrono';
+    /*font-weight: bold;*/
+    font-size: 5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+body {
+
+	height: 350px;
+	background-image: url(/home/pcapprenant16/Documents/jquery/Jquery_Pomodoro/pomodoro.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : fixed;
+opacity: 0.9;
 }
